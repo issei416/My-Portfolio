@@ -1,0 +1,30 @@
+/* Navbar.css */
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 1rem 0;
+}
+
+.navbar .nav-link.active {
+    overflow-y: hidden;
+    font-weight: bold;
+    color: #000000 !important;
+    background-color: #ffffff !important;
+}
+
+.btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-outline-light:hover img {
+    content: url("../assets/download-icon-black.png");
+}

@@ -1,0 +1,36 @@
+.skill {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.skills-section {
+    padding: 50px 0;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: scale(1.1);
+    border: 0;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.skill-icon {
+    font-size: 3rem;
+    color: #ffdd57;
+    /* Customize the icon color */
+}
+
+.skill-name {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #000;
+}
