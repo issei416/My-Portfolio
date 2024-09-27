@@ -12,7 +12,7 @@ const Navbar = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = resume; // Points to the correct file
-    link.download = "Mukeshkhann_Developer.pdf"; // Set desired file name
+    link.download = "Mukeshkhanna_Developer.pdf"; // Set desired file name
     link.click();
   };
 
