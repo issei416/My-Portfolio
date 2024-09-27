@@ -1,7 +1,6 @@
 import React from "react";
 import WorldAnimation from "./world.jsx";
 import ContactForm from "./ContactForm.jsx";
-import "../Styles/contact.css";
 
 const Contact = () => {
   return (
