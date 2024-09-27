@@ -19,14 +19,14 @@ const Footer = () => {
             <img src={github} alt="GitHub" />
           </a>
           <a
-            href="https://linkedin.com/in/your-linkedin"
+            href="https://linkedin.com/in/mukeshkhannaj"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon"
           >
             <img src={linkedin} alt="LinkedIn" />
           </a>
-          <a href="mailto:your-email@example.com" className="social-icon">
+          <a href="mailto:mukeshkj2912@gmail.com" className="social-icon">
             <img src={gmail} alt="Email" />
           </a>
         </div>

@@ -16,7 +16,8 @@ const About = () => {
       <ParticlesComponent id="particles" />
       <div className="col-12 text-white d-flex flex-column align-items-center justify-content-center text-center">
         <p className="about-name">
-          <h1 className="about-greet text-md-start">HI I'M</h1>Mukeshkhanna Jayavel
+          <h1 className="about-greet text-md-start">HI I'M</h1>Mukeshkhanna
+          Jayavel
         </p>
         <p className="about-desg">Full Stack Developer</p>
         <div className="d-flex flex-row gap-5">
@@ -42,7 +43,7 @@ const About = () => {
             <img src={gmail} alt="" />
           </a>
           <a
-            href="https://www.instagram.com/your-profile"
+            href="https://www.instagram.com/mukeshkhanna416?igsh=Mm41eWxxZGp4bXQ4"
             target="_blank"
             rel="noopener noreferrer"
           >
