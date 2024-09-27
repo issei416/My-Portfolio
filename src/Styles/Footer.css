@@ -1,0 +1,23 @@
+.footer {
+    background-color: #343a40; /* Dark background */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    margin: 0 15px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icon img {
+    width: 32px; /* Adjust icon size */
+    height: 32px; /* Adjust icon size */
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+  }
+  

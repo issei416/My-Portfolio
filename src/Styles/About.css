@@ -17,14 +17,14 @@
 }
 
 .about-name {
-    font-size: clamp(5rem,4rem,2rem);
+    font-size: clamp(2rem, 5vw + 1rem, 5rem);
     font-weight: lighter;
     letter-spacing: 0.2rem;
     font-family: 'rubik';
 }
 
 .about-desg {
-    font-size: 3.7rem;
+    font-size: clamp(2rem, 4vw + 1rem, 3.7rem);
     letter-spacing: 0.1rem;
     font-weight: lighter;
     font-family: 'lato';

@@ -3,9 +3,18 @@ import React from "react";
 import "../Styles/Navbar.css"; // Optional: Add custom styles if needed
 import download from "../assets/download-icon-32.png";
 import { useThemeContext } from "../hooks/ThemeContext.jsx";
+import resume from "/Mukeshkhanna_Developer.pdf";
+import hamburger from "../assets/hamburger.png";
 
 const Navbar = () => {
   const { dark, toggleTheme } = useThemeContext(); // Use the theme context
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = resume; // Points to the correct file
+    link.download = "Mukeshkhann_Developer.pdf"; // Set desired file name
+    link.click();
+  };
 
   return (
     <nav
@@ -22,7 +31,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <img src={hamburger} alt="" className="custom-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="nav nav-pills col-md-11 d-md-flex flex-md-row flex-column justify-content-center gap-5">
@@ -60,19 +69,15 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="col col-md-1 d-flex justify-content-end">
-            <a
+            <button
               className="btn btn-outline-light d-flex gap-2 align-items-center justify-content-center"
-              href="/path/to/resume.pdf"
-              download
+              onClick={handleDownload}
             >
-              RESUME{" "}
+              RESUME
               <span>
                 <img src={download} alt="download resume" />
               </span>
-            </a>
-            {/* <button onClick={toggleTheme} className="btn btn-toggle">
-              {dark ? "Light Mode" : "Dark Mode"}
-            </button> */}
+            </button>
           </div>
         </div>
       </div>

@@ -4,8 +4,9 @@ import Navbar from "./Components/Navbar.jsx";
 import About from "./Components/About.jsx";
 import Skills from "./Components/Skills.jsx";
 import Contact from "./Components/Contact.jsx";
-import Projects from "./Components/Projects.jsx";
 import { ThemeProvider } from "./hooks/ThemeContext.jsx";
+import ProjectSection from "./Components/Projects.jsx";
+import Footer from "./Components/Footer.jsx";
 
 const App = () => {
   return (
@@ -27,8 +28,9 @@ const App = () => {
         >
           <About />
           <Skills />
-          <Projects />
+          <ProjectSection />
           <Contact />
+          <Footer />
         </div>
       </ThemeProvider>
     </>
